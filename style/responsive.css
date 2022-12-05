@@ -19,8 +19,13 @@
     }
 
     #info-participer {
+        margin: 10% 0;
         width: 80%;
         padding: 2% 3% 5% 3%;
+    }
+
+    #info-participer > a {
+        margin-left: 0;
     }
 
     #prix-div {
