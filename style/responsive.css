@@ -1,0 +1,176 @@
+@media (max-width: 1440px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 2em;
+        background-color: #333333;
+        padding: 10px 10px 10px 0;
+        color: white;
+        position: fixed;
+        z-index: 100000;
+        border-bottom-width: 1px;
+        border-bottom-color: white;
+        border-bottom-style: solid;
+    }
+    
+    #links-navbar {
+        display: none;
+    }
+
+    #navbar-responsive {
+        display: flex;
+        cursor: pointer;
+    }
+
+    #links-navbar-responsive {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: #333333;
+        color: white;
+        z-index: 99999999999999;
+        transition: 0.5s;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: xx-large;
+        line-height: 200%;
+    }
+
+    #links-navbar-responsive > a:hover {
+        text-decoration: underline;
+    }
+
+    #quit-button {
+        position: absolute;
+        top: 8%;
+        right: 8%;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #pres-championnat {
+        flex-direction: column;
+        padding-bottom: 8%;
+    }
+
+    #texte-pres-championnat {
+        width: 80%;
+        margin-bottom: 2%;
+    }
+
+    #video-pres-championnat {
+        width: 80%;
+        margin-top: 2%;
+    }
+
+    #participer {
+        justify-content: center;
+    }
+
+    #info-participer {
+        margin: 10% 0;
+        width: 80%;
+        padding: 2% 3% 5% 3%;
+    }
+
+    #prix-div {
+        flex-direction: column;
+    }
+
+    #prix-div > * {
+        width: 70%;
+    }
+
+    #prix-div > * > img {
+        width: 30%;
+    }
+
+    #deadline-div {
+        flex-direction: column;
+    }
+
+    #deadline-div > * {
+        width: 80%;
+        margin: 5% 0;
+    }
+
+    #promouvoir {
+        justify-content: center;
+    }
+
+    #info-promotion {
+        width: 80%;
+        padding: 4%;
+    }
+
+    #rules-faq {
+        flex-direction: column;
+    }
+
+    #rules-faq > div {
+        padding: 5%;
+        width: 80%;
+    }
+
+    #educateur {
+        justify-content: center;
+    }
+
+    #info-educateur {
+        width: 80%;
+        margin: 10% 0;
+        padding: 5%;
+    }
+
+    #competition-div {
+        width: 80%;
+    }
+
+    #soummettre {
+        justify-content: center;
+    }
+
+    #info-soummettre {
+        width: 80%;
+        margin: 10% 0;
+        padding: 5%;
+    }
+
+    #hall-of-fame-div {
+        flex-direction: column;
+    }
+
+    #hall-of-fame-info {
+        width: 80%;
+    }
+
+    #hall-of-fame-info {
+        margin-bottom: 5%;
+    }
+
+    #where-are-they-cover {
+        width: 70%;
+    }
+
+    #contact-form {
+        width: 80%;
+    }
+
+    form > p {
+        font-size: small;
+    }
+
+    #media {
+        flex-direction: column;
+    }
+
+    #video > iframe {
+        width: 80%;
+    }
+}

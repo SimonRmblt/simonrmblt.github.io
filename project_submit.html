@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Soumettre un projet - Championnat National - OpenCertif</title>
+        <meta name="description" content="Informations sur le Championnat National Francais - OpenCertif">
+        <meta name="keywords" content="Content">
+        <link rel="stylesheet" href="style/project_submit.css">
+        <link rel="stylesheet" href="style/responsive.css">
+        <link rel="icon" href="ressources/logo-championship.png">
+    </head>
+    <body>
+        <div id="links-navbar-responsive">
+            <img src="ressources/iconmonstr-x-mark-lined-48.png" alt="Quit button" id="quit-button" onclick="close_menu()">
+            <a class="link-menu" href="index.html#participer">Participer</a>
+            <a class="link-menu" href="index.html#prix">Récompenses</a>
+            <a class="link-menu" href="index.html#deadline">Date de fin</a>
+            <a class="link-menu" href="index.html#promouvoir">Promouvoir</a>
+            <a class="link-menu" href="index.html#rules-faq">Règles</a>
+            <a class="link-menu" href="index.html#rules-faq">FAQ</a>
+            <a class="link-menu" href="index.html#soummettre">Envoyer vos projets</a>
+            <a class="link-menu" href="funding.html">Financement</a>
+            <a class="link-menu" href="index.html#contact">Contactez nous</a>
+        </div>
+        <nav>
+            <div id="logo-opencertif" onclick="go_to_homepage()">
+                <img src="ressources/ACP_Icon.png" alt="Logo OpenCertif" id="image-logo-oc" >
+            </div>
+            <div id="navbar-responsive">
+                <img src="ressources/iconmonstr-menu-lined-48.png" alt="Hamburger Menu Icon" id="menu-icon" onclick="open_menu()">
+            </div>
+            <div id="links-navbar">
+                <a href="index.html#participer">Participer</a>
+                <a href="index.html#prix">Récompenses</a>
+                <a href="index.html#deadline">Date de fin</a>
+                <a href="index.html#promouvoir">Promouvoir</a>
+                <a href="index.html#rules-faq">Règles</a>
+                <a href="index.html#rules-faq">FAQ</a>
+                <a href="index.html#soummettre">Envoyer vos projets</a>
+                <a href="funding.html">Financement</a>
+                <a href="index.html#contact">Contactez nous</a>
+            </div>
+        </nav>
+        <div id="contact">
+            <div id="contact-form">
+                <form action="https://formspree.io/f/meqdwbjy" enctype=multipart/form-data method="POST">
+                    <label for="fname">Prénom*</label>
+                    <input type="text" id="fname" name="firstname" required>
+                    <label for="lname">Nom de famille*</label>
+                    <input type="text" id="lname" name="lastname" required>
+                    <label for="mail">Adresse Email*</label>
+                    <input type="email" id="mail" name="email" required>
+                    <label for="phone">Numéro de téléphone*</label>
+                    <input type="text" id="phone" name="phone" required>
+
+                    <label for="date">Date de naissance*</label>
+                    <input type="date" id="date" name="date" required>
+                
+                    <label for="school">Ecole*</label>
+                    <input type="text" id="school" name="school" required>
+
+                    <label for="final-project">Image du rendu final*<br></label>
+                    <input type="file" name="file-project" id="file-project" required>
+                    <br><br>
+                    <label for="source-file-project">Fichiers source du projet*<br></label>
+                    <input type="file" name="source-file-project" id="source-file-project" required>
+                
+                    <p>I have read and agree to the Terms of Service (https://home.pearsonvue.com/terms) and Privacy and Cookies Policy (https://home.pearsonvue.com/privacy) and consent to the collection, use, transfer, and disclosure of my personal data to Certiport and its authorized third-party service providers that may be located in the U.S. or outside of the country where I am located. </p>
+                    <input type="checkbox" id="terms-of-service" name="terms-of-service" value="terms-of-service" required>
+                    <label for="terms-of-service">  I have read and agree to the above*</label><br><br>
+                    <input type="submit" value="Envoyer">
+                </form>
+            </div>
+        </div>
+    </body>
+    <script src="javascript/animation.js"></script>
+</html>
