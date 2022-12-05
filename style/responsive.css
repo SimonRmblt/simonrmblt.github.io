@@ -24,10 +24,6 @@
         padding: 2% 3% 5% 3%;
     }
 
-    #info-participer > a {
-        margin-left: 0;
-    }
-
     #prix-div {
         flex-direction: column;
     }
