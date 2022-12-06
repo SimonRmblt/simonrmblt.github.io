@@ -73,44 +73,20 @@ nav {
 }
 
 #contact {
+    position: absolute;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     background: rgb(130,0,122);
     background: radial-gradient(circle, rgba(130,0,122,1) 24%, rgba(216,11,54,1) 100%);
 }
 
 #contact-form {
+    height: 70%;
     width: 40%;
     color: white;
-    padding: 5% 0;
 }
 
-input[type=text], input[type=email], select, textarea, input[type=date] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
 
-input[type=submit], input[type=file] {
-    background-color: rgba(0, 0, 0, 0);
-    border-color: white;
-    border-width: 2px;
-    border-style: solid;
-    color: white;
-    padding: 15px;
-    font-size: 16px;
-    transition: 0.3s;
-}
-
-input[type=submit]:hover {
-    background-color: white;
-    cursor: pointer;
-    color: black;
-    transition: 0.3s;
-}
