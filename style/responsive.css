@@ -179,3 +179,11 @@
         cursor: pointer;
     }
 }
+
+@media only screen and (max-height: 600px) {
+
+    #links-navbar-responsive {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
