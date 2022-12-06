@@ -118,6 +118,11 @@
     #video > iframe {
         width: 80%;
     }
+
+    #rules-pres > a {
+        width: 60%;
+        padding: 3%;
+    }
 }
 
 @media only screen and (max-width: 1440px) {
