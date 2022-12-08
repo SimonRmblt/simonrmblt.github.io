@@ -7,6 +7,7 @@ body {
     font-family: "Lato",sans-serif;
     line-height: 150%;
     background-color: black;
+    height: 100%;
 }
 
 .parallax {
@@ -38,6 +39,7 @@ nav {
     position: fixed;
     z-index: 100000;
     background-color: #333;
+    box-shadow: 0px 5px 10px black;
 }
 
 #progress-bar {
