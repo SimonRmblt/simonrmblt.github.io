@@ -13,7 +13,7 @@ body {
 .parallax {
     position: absolute;
     z-index: -1;
-    height: 150%;
+    height: 100%;
     width: 100%;
     background-attachment: fixed;
     background-position: center;

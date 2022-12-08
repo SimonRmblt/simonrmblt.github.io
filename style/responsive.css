@@ -201,4 +201,8 @@
         flex-wrap: wrap;
         width: 100%;
     }
+
+    .parallax {
+        height: 200%;
+    }
 }
