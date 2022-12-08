@@ -79,14 +79,12 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100%;
-    background: rgb(130,0,122);
-    background: radial-gradient(circle, rgba(130,0,122,1) 24%, rgba(216,11,54,1) 100%);
 }
 
 #contact-form {
     height: 70%;
     width: 40%;
-    color: white;
+    color: black;
 }
 
 

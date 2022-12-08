@@ -42,10 +42,13 @@
             </div>
             <div id="progress-bar"></div>
         </nav>
-        <img src="ressources/bg-main-banner.jpg" alt="Background main banner" id="main-banner-bg" class="bg">
-        <div id="main-image">
-            <img src="ressources/header-image-championship.png" alt="Banner Championship" id="main-banner-cs">
+        <div id="main-image" onclick="video_link()">
+            <video width="100%" height="100%" autoplay muted loop>
+                <source src="ressources/2022 Certiport’s Adobe Certified Professional World Championship Promo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
+        <div id="sep-video-texte"></div>
         <div id="pres-championnat">
             <div id="texte-pres-championnat">
                 <h2>Qu'est ce que le Championnat National Adobe Certified Professional ?</h2>
@@ -53,11 +56,9 @@
                     Le Championnat National Adobe Certified Professional présenté par OpenCertif, est un concours national qui teste les compétences de conception des étudiants en utilisant Adobe Photoshop, Illustrator et InDesign. Les meilleurs étudiants sont invités au Championnat national où ils créeront un projet de conception pour le client à but non lucratif choisi par OpenCertif.
                 </p>
             </div>
-            <div id="video-pres-championnat">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/TdLnMhSGXZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
         </div>
         <div id="participer">
+            <div class="parallax" style="background-image: url('ressources/ACA_testing_certiport.jpg');"></div>
             <div id="info-participer">
                 <h2>Comment participer ?<br><br></h2>
                 <p>
@@ -112,6 +113,7 @@
                 </div>
             </div>
         </div>
+        <div id="sep-prix-deadline"></div>
         <div id="deadline">
             <h1>Quelles sont les dates limites pour participer ?</h1>
             <div id="deadline-div">
@@ -139,6 +141,7 @@
             </div>
         </div>
         <div id="promouvoir">
+            <div class="parallax" style="background-image: url('ressources/promote_the_competition.jpg');"></div>
             <div id="info-promotion">
                 <h2>Vous cherchez à promouvoir le Championnat ?</td> <br><br></h2>
                 <p>Certiport veut que les éducateurs disposent du matériel dont ils ont besoin pour promouvoir le Championnat National Adobe Certified Professional dans leurs classes et écoles. Visitez notre page Médias pour demander des articles promotionnels, visionner des vidéos et télécharger vos propres affiches, dépliants, communiqués de presse et autres documents afin de susciter l’enthousiasme de vos élèves à l’égard du Championnat national Adobe Certified Professional.<br><br></p>
@@ -160,6 +163,7 @@
             </div>
         </div>
         <div id="educateur">
+            <div class="parallax" style="background-image: url('ressources/educator.jpg');"></div>
             <div id="info-educateur">
                 <img src="ressources/unnamed.png" alt="Certified Certiport Educator Conference" id="conference-educateur">
                 <p>
@@ -179,11 +183,12 @@
                 <p>
                     Voulez-vous voir les meilleures moments de nos concours précédents ? Retrouvez notre hashtag #ACAWC sur Facebook, Twitter et Instagram.<br><br>
                 </p>
-                <a href="">Voir les gagnants et leurs oeuvres</a>
+                <a href="https://www.behance.net/Certiport" target="_blank">Voir les gagnants et leurs oeuvres</a>
                 <br><br>
             </div>
         </div>
         <div id="soummettre">
+            <div class="parallax" style="background-image: url('ressources/Past_Competitions_Section_Image_on_Homepage.jpg');"></div>
             <div id="info-soummettre">
                 <h2>Comment envoyer mon projet ?<br></h2>
                 <p>
@@ -206,6 +211,7 @@
                 <img src="ressources/hall-of-fame.png" alt="Where are they now ?" id="where-are-they-cover">
             </div>
         </div>
+        <div id="sep-texte-form"></div>
         <div id="contact">
             <div id="contact-form">
                 <form action="https://formspree.io/f/mgeqbrda" method="POST">

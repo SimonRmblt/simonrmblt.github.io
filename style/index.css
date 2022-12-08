@@ -6,6 +6,19 @@ body {
     margin: 0;
     font-family: "Lato",sans-serif;
     line-height: 150%;
+    background-color: black;
+}
+
+.parallax {
+    position: absolute;
+    z-index: -1;
+    height: 150%;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
 }
 
 a {
@@ -19,17 +32,17 @@ nav {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    height: 2em;
-    background-color: #333333;
+    height: 3em;
     padding: 10px 10px 10px 0;
     color: white;
     position: fixed;
     z-index: 100000;
+    background-color: #333;
 }
 
 #progress-bar {
     position: fixed;
-    margin-top: 3em;
+    margin-top: 4em;
     width: 0;
     background-color: white;
     height: 0.25em;
@@ -42,12 +55,13 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    margin-left:10%;
+    margin-left: 10%;
 }
 
 #links-navbar > a {
     padding: 0.8% 1.5% 1.5% 1.5%;
     transition: 0.1s;
+    color: white;
 }
 
 #navbar-responsive {
@@ -74,55 +88,42 @@ nav {
 }
 
 #image-logo-oc {
-    height: 100%;
+    height: 75%;
 }
 
 #main-image {
     width: 100%;
-    height: 50%;
-    padding-top: 3em;
+    height: 100%;
     display: flex;
     justify-content: center;
+    padding-top: 4em;
+    cursor: url(../ressources/iconmonstr-share-11-24.png), pointer;
 }
 
-#main-banner-cs {
-    width: 80%;
-    height: 50%;
-    z-index: 1;
-    padding-top: 6px;
-}
-
-#main-banner-bg {
-    position: fixed;
+#sep-video-texte {
+    background: rgb(216,11,54);
+    background: linear-gradient(90deg, rgba(216,11,54,1) 0%, rgba(212,10,57,1) 20%, rgba(130,0,122,1) 60%);
     width: 100%;
-    height: 100%;
-    z-index: -10;
-    object-fit: cover;
+    padding: 0.2% 0;
+    display: flex;
 }
 
 #pres-championnat {
-    background: rgb(216,11,54);
-    background: linear-gradient(90deg, rgba(216,11,54,1) 0%, rgba(212,10,57,1) 20%, rgba(130,0,122,1) 60%);
+    background-color: #333;
     width: 100%;
     z-index: 10000;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     color: white;
-    padding: 3% 0 3% 0;
+    padding: 5% 0;
 }
 
 #texte-pres-championnat {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 40%;
-}
-
-#video-pres-championnat {
-    display: flex;
-    justify-content: center;
-    width: 40%;
+    width: 60%;
 }
 
 #participer {
@@ -131,6 +132,15 @@ nav {
     display: flex;
     justify-content: right;
     align-items: center;
+}
+
+#participer-bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
 }
 
 #banner-participer {
@@ -169,8 +179,7 @@ nav {
 
 #prix {
     width: 100%;
-    background: rgb(130,0,122);
-    background: radial-gradient(circle, rgba(130,0,122,1) 24%, rgba(216,11,54,1) 100%);
+    background-color: #333;
     color: white;
     display: flex;
     justify-content: center;
@@ -203,11 +212,19 @@ nav {
     margin-bottom: 5%;
 }
 
+#sep-prix-deadline {
+    background: rgb(130,0,122);
+    background: radial-gradient(circle, rgba(130,0,122,1) 24%, rgba(216,11,54,1) 100%);
+    width: 100%;
+    padding: 0.3% 0%;
+    display: flex;
+}
+
 #deadline {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    background-color: #333333;
+    background-color: #333;
     color: white;
     width: 100%;
     text-align: center;
@@ -238,6 +255,15 @@ nav {
     display: flex;
     justify-content: left;
     align-items: center;
+}
+
+#promouvoir-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.7;
 }
 
 #info-promotion {
@@ -275,8 +301,7 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    background: rgb(216,11,54);
-    background: linear-gradient(90deg, rgba(216,11,54,1) 0%, rgba(212,10,57,1) 28%, rgba(130,0,122,1) 72%);
+    background-color: #333;
     color: white;
     padding: 5%;
 }
@@ -308,6 +333,15 @@ nav {
     display: flex;
     justify-content: right;
     align-items: center;
+}
+
+#educateur-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.7;
 }
 
 #info-educateur {
@@ -345,8 +379,7 @@ nav {
 
 #competition-passee {
     width: 100%;
-    background: rgb(130,0,122);
-    background: radial-gradient(circle, rgba(130,0,122,1) 24%, rgba(216,11,54,1) 100%);
+    background-color: #333;
     color: white;
     display: flex;
     justify-content: center;
@@ -396,6 +429,15 @@ nav {
     display: flex;
     justify-content: right;
     align-items: center;
+}
+
+#soummettre-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 0.7;
 }
 
 #info-soummettre {
@@ -476,12 +518,19 @@ nav {
     width: 25%;
 }
 
+#sep-texte-form {
+    background: rgb(130,0,122);
+    background: radial-gradient(circle, rgba(130,0,122,1) 24%, rgba(216,11,54,1) 100%);
+    width: 100%;
+    padding: 0.3% 0;
+    display: flex;
+}
+
 #contact {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(130,0,122);
-    background: radial-gradient(circle, rgba(130,0,122,1) 24%, rgba(216,11,54,1) 100%);
+    background-color: #333;
 }
 
 #contact-form {
