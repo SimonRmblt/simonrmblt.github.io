@@ -1,0 +1,85 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: "Lato",sans-serif;
+    line-height: 150%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+#acp {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 18% 0 0 0;
+    height: 100%;
+    cursor: pointer;
+    transition: padding 0.4s;
+}
+
+.info-comp {
+    width: 50%;
+}
+
+#mos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    padding: 18% 0 0 0;
+    height: 100%;
+    cursor: pointer;
+    transition: padding 0.4s;
+}
+
+#acp-bg {
+    position: fixed;
+    right: 50%;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.5;
+}
+
+#mos-bg {
+    position: fixed;
+    left: 50%;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.link-championship {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.arrow {
+    margin: 0 5%;
+}
+
+.link-page {
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 0.5%;
+}
