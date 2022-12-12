@@ -125,7 +125,11 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 60%;
+    width: 40%;
+}
+
+#logo-adobe {
+    height: 10%;
 }
 
 #participer {
