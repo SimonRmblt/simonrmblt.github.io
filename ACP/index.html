@@ -12,15 +12,15 @@
     <body>
         <div id="links-navbar-responsive">
             <img src="ressources/iconmonstr-x-mark-lined-48.png" alt="Quit button" id="quit-button" onclick="close_menu()">
-            <a class="link-menu" href="index.html#participer">Participer</a>
-            <a class="link-menu" href="index.html#prix">Récompenses</a>
-            <a class="link-menu" href="index.html#deadline">Dates limite</a>
-            <a class="link-menu" href="index.html#promouvoir">Promouvoir</a>
-            <a class="link-menu" href="index.html#rules-faq">Règles</a>
-            <a class="link-menu" href="index.html#rules-faq">FAQ</a>
-            <a class="link-menu" href="index.html#soummettre">Envoyer vos projets</a>
-            <a class="link-menu" href="funding.html">Financement</a>
-            <a class="link-menu" href="index.html#contact">Contactez nous</a>
+            <a class="link-menu" href="index.html#participer">- Participer</a>
+            <a class="link-menu" href="index.html#prix">- Récompenses</a>
+            <a class="link-menu" href="index.html#deadline">- Dates limite</a>
+            <a class="link-menu" href="index.html#promouvoir">- Promouvoir</a>
+            <a class="link-menu" href="index.html#rules-faq">- Règles</a>
+            <a class="link-menu" href="index.html#rules-faq">- FAQ</a>
+            <a class="link-menu" href="index.html#soummettre">- Envoyer vos projets</a>
+            <a class="link-menu" href="funding.html">- Financement</a>
+            <a class="link-menu" href="../common_pages/index.html">- Contactez nous</a>
         </div>
         <nav>
             <div id="logo-opencertif" onclick="go_to_homepage()">
@@ -38,7 +38,7 @@
                 <a href="index.html#rules-faq">FAQ</a>
                 <a href="index.html#soummettre">Envoyer vos projets</a>
                 <a href="funding.html">Financement</a>
-                <a href="index.html#contact">Contactez nous</a>
+                <a href="../common_pages/index.html">Contactez nous</a>
             </div>
             <div id="progress-bar"></div>
         </nav>
@@ -162,20 +162,7 @@
                 <a href="faq.html">FAQ</a>
             </div>
         </div>
-        <div id="educateur">
-            <div class="parallax" style="background-image: url('ressources/educator.jpg');"></div>
-            <div id="info-educateur">
-                <img src="ressources/unnamed.png" alt="Certified Certiport Educator Conference" id="conference-educateur">
-                <p>
-                    <br><br>
-                    Êtes-vous un enseignant avec un compétiteur qui vient au Championnat National Adobe Certified Professional ? Tous les éducateurs qui ont des étudiants admissibles au Championnat National recevront un laissez-passer gratuit à la Conférence des éducateurs certifiés. Joignez-vous à votre communauté d’éducateurs et explorez le potentiel et la promesse de certification en classe.
-                    <br><br><br>
-                </p>
-                <a>
-                    Plus d'informations sur CERTIFIED
-                </a>
-            </div>
-        </div>
+        <div id="sep-video-texte"></div>
         <div id="competition-passee">
             <div id="competition-div">
                 <img src="ressources/iconmonstr-trophy-16-48.png" alt="">
@@ -200,48 +187,27 @@
                 </a>
             </div>
         </div>
-        <div id="hall-of-fame">
-            <div id="hall-of-fame-div">
-                <div id="hall-of-fame-info">
-                    <h2>Panthéon des Championnats Adobe Certified Professional<br><br></h2>
-                    <p>Le Championnat Adobe Certified Professional ne se termine pas avec la cérémonie de remise des prix. Les gagnants se font concurrence et réussissent dans l’enseignement supérieur et sur le marché du travail.<br><br>
-                        Vous voulez lire les histoires de certains des meilleurs Champions Adobe Certified Professional et savoir où ils en sont maintenant ? Téléchargez notre livre électronique « Where Are They Now : Stories of Adobe Certified Associates ».<br><br></p>
-                    <a href="">En savoir plus</a>
-                </div>
-                <img src="ressources/hall-of-fame.png" alt="Where are they now ?" id="where-are-they-cover">
+        <div id="sep-prix-deadline"></div>
+        <div id="footer">
+            <div class="footer-part">
+                <a href="../index.html">Page d'accueil</a>
+                <a href="index.html">Adobe Certified Professional</a>
+                <a href="../MOS/index.html">Microsoft Office Specialist</a>
             </div>
-        </div>
-        <div id="sep-texte-form"></div>
-        <div id="contact">
-            <div id="contact-form">
-                <form action="https://formspree.io/f/mgeqbrda" method="POST">
-                    <label for="fname">Prénom*</label>
-                    <input type="text" id="fname" name="firstname" required>
-                    <label for="lname">Nom de famille*</label>
-                    <input type="text" id="lname" name="lastname" required>
-                    <label for="mail">Adresse Email*</label>
-                    <input type="email" id="mail" name="email" required>
-                    <label for="institution">Institution*</label>
-                    <input type="text" id="institution" name="institution" required>
-                
-                    <label for="role">Rôle*</label>
-                    <select id="role" name="role" required>
-                        <option value="" disabled selected>- Sélectionnez en un -</option>
-                        <option value="student">Etudiant</option>
-                        <option value="teacher">Professeur</option>
-                    </select>
-                
-                    <label for="country">Pays d'origine*</label>
-                    <input type="text" id="country" name="country" required>
-
-                    <label for="questions">Des questions ?</label>
-                    <textarea id="questions" name="questions" style="height:200px"></textarea>
-                
-                    <p>J’ai lu et j’accepte les conditions d'utilisations (<a href="https://home.pearsonvue.com/terms" style="text-decoration: underline">https://home.pearsonvue.com/terms</a>), la politique de confidentialité et cookies (<a href="https://home.pearsonvue.com/privacy" style="text-decoration: underline">https://home.pearsonvue.com/privacy</a>) et consent à la collecte, à l’utilisation, au transfert et à la divulgation de mes données personnelles à Certiport et à ses fournisseurs de services tiers autorisés qui peuvent être situés aux États-Unis ou à l’extérieur du pays où je me trouve.</p>
-                    <input type="checkbox" id="terms-of-service" name="terms-of-service" value="terms-of-service" required>
-                    <label for="terms-of-service">  J'ai lu et j'accepte les conditions ci-dessus*</label><br><br>
-                    <input type="submit" value="Envoyer">
-                </form>
+            <div class="sep-footer"></div>
+            <div class="footer-part">
+                <a href="#participer">Participer</a>
+                <a href="#prix">Récompenses</a>
+                <a href="#deadline">Dates limites</a>
+                <a href="#prmouvoir">Promouvoir</a>
+                <a href="#rules-faq">Règles</a>
+                <a href="#rules-faq">FAQ</a>
+                <a href="#soummettre">Envoyer vos projets</a>
+            </div>
+            <div class="sep-footer"></div>
+            <div class="footer-part">
+                <a href="funding.html">Financement</a>
+                <a href="../common_pages/index.html">Contact</a>
             </div>
         </div>
     </body>

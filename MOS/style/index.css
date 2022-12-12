@@ -99,7 +99,11 @@ nav {
     display: flex;
     justify-content: center;
     padding-top: 4em;
-    cursor: url(../ressources/iconmonstr-share-11-24.png), pointer;
+}
+
+#main-bg {
+    height: 100%;
+    width: 100%;
 }
 
 #sep-video-texte {

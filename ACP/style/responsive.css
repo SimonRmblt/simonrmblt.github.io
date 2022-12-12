@@ -128,6 +128,19 @@
         width: 60%;
         padding: 3%;
     }
+
+    #footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sep-footer {
+        height: 0;
+        width: 70%;
+        margin: 5% 0;
+        font-size: 70%;
+    }
 }
 
 @media only screen and (max-width: 1500px) {
