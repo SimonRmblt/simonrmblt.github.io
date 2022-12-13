@@ -21,7 +21,7 @@ function go_to_homepage() {
 }
 
 function video_link() {
-    window.open("https://www.youtube.com/watch?v=TdLnMhSGXZU", "_blank")
+    window.open("https://www.youtube.com/watch?v=GwWkK8dvsd4", "_blank")
 }
 
 const scroll_progress = document.getElementById('progress-bar')

@@ -12,13 +12,12 @@
     <body>
         <div id="links-navbar-responsive">
             <img src="ressources/iconmonstr-x-mark-lined-48.png" alt="Quit button" id="quit-button" onclick="close_menu()">
-            <a class="link-menu" href="index.html#participer">- Participer</a>
+            <a class="link-menu" href="index.html#pres-championnat">- Participer</a>
             <a class="link-menu" href="index.html#prix">- Récompenses</a>
             <a class="link-menu" href="index.html#deadline">- Dates limite</a>
             <a class="link-menu" href="index.html#promouvoir">- Promouvoir</a>
             <a class="link-menu" href="index.html#rules-faq">- Règles</a>
             <a class="link-menu" href="index.html#rules-faq">- FAQ</a>
-            <a class="link-menu" href="index.html#soummettre">- Envoyer vos projets</a>
             <a class="link-menu" href="funding.html">- Financement</a>
             <a class="link-menu" href="index.html#contact">- Contactez nous</a>
         </div>
@@ -30,21 +29,22 @@
                 <img src="ressources/iconmonstr-menu-lined-48.png" alt="Hamburger Menu Icon" id="menu-icon" onclick="open_menu()">
             </div>
             <div id="links-navbar">
-                <a href="index.html#participer">Participer</a>
+                <a href="index.html#pres-championnat">Participer</a>
                 <a href="index.html#prix">Récompenses</a>
                 <a href="index.html#deadline">Dates limite</a>
                 <a href="index.html#promouvoir">Promouvoir</a>
                 <a href="index.html#rules-faq">Règles</a>
                 <a href="index.html#rules-faq">FAQ</a>
-                <a href="index.html#soummettre">Envoyer vos projets</a>
                 <a href="funding.html">Financement</a>
-                <a href="index.html#contact">Contactez nous</a>
+                <a href="../common_pages/index.html">Contactez nous</a>
             </div>
             <div id="progress-bar"></div>
         </nav>
-        <div id="main-image">
-            <img src="ressources/MOS-NC-2023-Web-Header-front.png" alt="Header MOS" id="main-bg">
-            <div class="parallax" style="background-image: url('ressources/MOS-NC-2023-Web-Header-1600x700-background.jpg'); position: absolute"></div>
+        <div id="main-image" onclick="video_link()">
+            <video width="100%" height="100%" autoplay muted loop>
+                <source src="ressources/2022 Microsoft Office Specialist World Championship Promo_Trim.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
         </div>
         <div id="sep-video-texte"></div>
         <div id="pres-championnat">
@@ -52,44 +52,35 @@
                 <h2 style="line-height: 150%;">Qu'est ce que le Championnat National Microsoft Office Specialist ?</h2>
                 <p>
                     Le Championnat National Microsoft Office Specialist présenté par OpenCertif, est un concours national qui teste les compétences des étudiants sur Microsoft Word, Excel, et PowerPoint.
+                    <br><br>
+                </p>
+                <h2>Participation</h2>
+                <p>
+                    Pour participer vous devez simplement obtenir une certification Microsoft Office Specialist (Word, Excel, PowerPoint) avec le meilleur score possible. 
                 </p>
             </div>
             <img src="ressources/MOSUSN-web-Medal-White-2023.png" alt="Medal MOS" id="logo-mos">
         </div>
-        <div id="participer">
-            <div class="parallax" style="background-image: url('ressources/ACA_testing_certiport.jpg');"></div>
-            <div id="info-participer">
-                <h2>Comment participer ?<br><br></h2>
-                <p>
-                    Il y a deux étapes à suivre. La première consiste à réussir un examen Adobe Certified Professional dans Photoshop, Illustrator ou InDesign. La deuxième étape consiste à soumettre un projet original accompagné des fichiers sources (Adobe Photoshop, Illustrator et/ou InDesign) au formulaire de soumission pendant la période de qualification d’automne ou de printemps.<br><br>Une fois les périodes de qualification terminées, Les candidats ayant les meilleurs projets seront choisis pour participer au Championnat National Adobe Certified Professional !
-                    <br><br><br>
-                </p>
-                <a href="#soummettre">
-                    Envoyer un projet !
-                </a>
-            </div>
-        </div>
         <div id="prix">
+            <div class="parallax" style="background-image: url('ressources/Past_Competitions_Section_Image_on_Homepage.jpg');"></div>
             <h1>Que vais-je gagner ?</h1>
             <div id="prix-div">
+                <div id="second-place">
+                    <img src="ressources/MOSUSN-web-Medal-White-2023.png" alt="Second Place Medal">
+                    <h2>2ème place</h2>
+                    <p>
+                        <img src="ressources/iconmonstr-medal-11-12.png" alt="Medal Symbol">
+                        Médaille<br>
+                        <img src="ressources/iconmonstr-certificate-11-12.png" alt="Certificate Symbol">
+                        Certificat de victoire<br>
+                    </p>
+                </div>
                 <div id="first-place">
                     <img src="ressources/MOSUSN-web-Medal-White-2023.png" alt="First Place Medal">
                     <h2>1ère place</h2>
                     <p>
                         <img src="ressources/iconmonstr-trophy-16-12.png" alt="Trophy Symbol">
                         Trophée<br>
-                        <img src="ressources/iconmonstr-medal-11-12.png" alt="Medal Symbol">
-                        Médaille<br>
-                        <img src="ressources/iconmonstr-certificate-11-12.png" alt="Certificate Symbol">
-                        Certificat de victoire<br>
-                        <img src="ressources/iconmonstr-airport-1-12.png" alt="Plane Symbol">
-                        Voyage tous frais payé pour participer au Championnat du Monde Adobe Certified Professional<br>
-                    </p>
-                </div>
-                <div id="second-place">
-                    <img src="ressources/MOSUSN-web-Medal-White-2023.png" alt="Second Place Medal">
-                    <h2>2ème place</h2>
-                    <p>
                         <img src="ressources/iconmonstr-medal-11-12.png" alt="Medal Symbol">
                         Médaille<br>
                         <img src="ressources/iconmonstr-certificate-11-12.png" alt="Certificate Symbol">
@@ -106,8 +97,6 @@
                         Medaille<br>
                         <img src="ressources/iconmonstr-certificate-11-12.png" alt="Certificate Symbol">
                         Certificat de victoire<br>
-                        <img src="ressources/iconmonstr-airport-1-12.png" alt="Plane Symbol">
-                        Voyage tous frais payé pour participer au Championnat du Monde Adobe Certified Professional<br>
                     </p>
                 </div>
             </div>
@@ -143,7 +132,7 @@
             <div class="parallax" style="background-image: url('ressources/Promote.jpg');"></div>
             <div id="info-promotion">
                 <h2>Vous cherchez à promouvoir le Championnat ?</td> <br><br></h2>
-                <p>Certiport veut que les éducateurs disposent du matériel dont ils ont besoin pour promouvoir le Championnat National Adobe Certified Professional dans leurs classes et écoles. Visitez notre page Médias pour demander des articles promotionnels, visionner des vidéos et télécharger vos propres affiches, dépliants, communiqués de presse et autres documents afin de susciter l’enthousiasme de vos élèves à l’égard du Championnat national Adobe Certified Professional.<br><br></p>
+                <p>Certiport veut que les éducateurs aient le matériel dont ils ont besoin pour promouvoir le Championnat National MOS dans leur classe et leur école. Visitez notre page Médias pour demander des articles promotionnels, visionner des vidéos et télécharger vos propres affiches, dépliants, communiqués de presse et autres documents afin de susciter l’enthousiasme de vos élèves à l’égard du Championnat National MOS.<br><br></p>
                 <a href="media.html">Allons-y !</a>
             </div>
         </div>
@@ -151,13 +140,13 @@
             <div id="rules">
                 <img src="ressources/iconmonstr-file-22-48.png" alt="Document Symbol">
                 <h2>Règles Officielles<br><br></h2>
-                <p>Vous voulez vérifier toutes les règles pour le Championnat National Adobe Certified Professional ? Visitez la page des règles officielles pour plus d’informations.<br><br></p>
+                <p>Vous voulez vérifier toutes les règles pour le Championnat National Microsoft Office Specialist ? Visitez la page des règles officielles pour plus d’informations.<br><br></p>
                 <a href="rules.html">Règles</a>
             </div>
             <div id="faq">
                 <img src="ressources/iconmonstr-help-2-48.png" alt="Help Symbol">
                 <h2>FAQ<br><br></h2>
-                <p>Vous voulez en savoir plus sur le Championnat National Adobe Certified Professional ? Consultez la page Foire aux questions (FAQ) !<br><br></p>
+                <p>Vous voulez en savoir plus sur le Championnat National Microsoft Office Specialist ? Consultez la page Foire aux questions (FAQ) !<br><br></p>
                 <a href="faq.html">FAQ</a>
             </div>
         </div>
