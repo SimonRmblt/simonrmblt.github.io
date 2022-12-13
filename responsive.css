@@ -32,7 +32,7 @@
         padding: 10% 15% 0 15%;
         width: 70%;
         height: auto;
-        font-size: medium;
+        font-size: small;
     }
 
     #acp {
@@ -41,6 +41,14 @@
         padding: 10% 15% 0 15%;
         width: 70%;
         height: auto;
-        font-size: medium;
+        font-size: small;
+    }
+
+    #acp > .info-comp > h1 + p {
+        display: none;
+    }
+
+    #mos > .info-comp > h1 + p {
+        display: none;
     }
 }
