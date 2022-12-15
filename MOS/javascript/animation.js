@@ -16,8 +16,8 @@ for (let i = 0; i < links.length; i++) {
     }
 }
 
-function go_to_homepage() {
-    window.location.href = "../index.html"
+function go_to_page(page) {
+    window.location.href = page
 }
 
 function video_link() {
