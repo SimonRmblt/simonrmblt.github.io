@@ -1,6 +1,5 @@
 @media only screen and (max-width: 850px) {
     .parallax {
-        background-attachment: scroll;
         height: 100%;
     }
 
