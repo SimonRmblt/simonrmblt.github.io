@@ -17,7 +17,7 @@ for (let i = 0; i < links.length; i++) {
 }
 
 function go_to_homepage() {
-    window.location.href = "../index.html"
+    window.location.href = "../landing_page.html"
 }
 
 function video_link() {
