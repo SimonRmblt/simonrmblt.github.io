@@ -391,6 +391,31 @@ nav {
     transition: 0.3s;
 }
 
+#partenaires {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #282D32;
+    width: 100%;
+    color: white;
+    padding: 3% 0;
+}
+
+#logo-partenaires {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo-partenaires > img {
+    width: 20%;
+    padding: 2%;
+}
+
 #sep-texte-form {
     background: rgb(130,0,122);
     background: radial-gradient(circle, rgba(130,0,122,1) 24%, rgba(216,11,54,1) 100%);
